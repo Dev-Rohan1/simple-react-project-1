@@ -1,0 +1,64 @@
+section .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .col:first-of-type {
+  flex-basis: 50%;
+}
+
+.wrapper .col:last-of-type {
+  flex-basis: 40%;
+}
+
+.wrapper .col h1 {
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 55px;
+  margin-bottom: 20px;
+}
+
+.wrapper .col p {
+  font-size: 15px;
+  line-height: 29px;
+  margin-bottom: 20px;
+}
+
+.wrapper .col .btn button {
+  border: 0;
+  border-radius: 8px;
+  padding: 9px 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.wrapper .col .btn button:first-of-type {
+  background-color: #d01c28;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.wrapper .col .btn button:last-of-type {
+  background-color: #fff;
+  border: 1.5px solid black;
+}
+
+.wrapper .col span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.col .shopBrand {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.col .shopBrand img {
+  margin-right: 0px !important;
+}
+
+.wrapper .col img {
+  margin-right: -75px;
+}
